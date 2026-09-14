@@ -77,7 +77,8 @@ To use all of the integration features, use the following AWS IAM Policy:
         "ec2:DescribeTransitGateway*",
         "apigateway:GET",
         "dms:DescribeReplicationInstances",
-        "dms:DescribeReplicationTasks"
+        "dms:DescribeReplicationTasks",
+        "iam:ListAccountAliases"
       ],
       "Effect": "Allow",
       "Resource": "*"
